@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio Pessoal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="carousel.css" rel="stylesheet">
+
+  <style>
+
+  body {
+    background-color: #858f8a; /* verde musgo escuro */
+    color: #F3F3E3; /* texto claro */
+  }
+
+  .navbar {
+    background-color: #1F3B2D !important;
+  }
+
+  .carousel-item {
+    background-color: #1F3B2D; /* fundo do carrossel */
+    color: #F3F3E3;
+  }
+
+  .btn-primary {
+    background-color: #5A7D52;
+    border-color: #5A7D52;
+  }
+
+  .btn-primary:hover {
+    background-color: #3c5348;
+    border-color: #1F3B2D;
+  }
+
+  section {
+    background-color: #1F3B2D;
+    color: #F3F3E3;
+    padding: 40px 0;
+  }
+
+  hr {
+    border-top: 1px solid #1F3B2D;
+  }
+
+  footer {
+    background-color: #1F3B2D;
+    color: #eeedef;
+    padding: 20px 0;
+  }
+
+  .rounded-circle {
+    border: 3px solid #A8B9A3;
+  }
+
+  a.nav-link {
+    color: #F3F3E3 !important;
+  }
+
+  a.nav-link:hover {
+    color: #A8B9A3 !important;
+  }
+</style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfólio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+           <li class="nav-item"><a class="nav-link active" href="#identificacao">Identificação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#atuacao">Atuação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li> <!-- NOVO link interno -->
+          <li class="nav-item"><a class="nav-link" href="https://blog.mackenzie.br/vestibular/guia-de-profissoes/areas-de-atuacao-para-quem-cursa-analise-e-desenvolvimento-de-sistemas/" target="_blank">Sobre ADS</a></li> <!-- NOVO link externo -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mt-5 pt-5">
+    <div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagens/arabesco.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Bem-vindo ao meu portfólio!</h1>
+              <p>Veja um resumo sobre minha trajetória acadêmica e profissional.</p>
+              <p><a class="btn btn-primary btn-lg" href="#formacao">Saiba mais</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+        <img src="Imagens/arabesco.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Minha experiência profissional.</h1>
+              <p>Conheça meus projetos e áreas de atuação.</p>
+              <p><a class="btn btn-primary btn-lg" href="#atuacao">Ver atuação</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagens/arabesco.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Um pouco sobre mim.</h1>
+              <p>Meus interesses, hobbies e paixões pessoais.</p>
+              <p><a class="btn btn-primary btn-lg" href="#hobbies">Descubra</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="Imagens/dedicação.webp" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <h2 class="fw-normal">Dedicação</h2>
+          <p>Sou comprometido com meus objetivos e busco sempre aprender mais.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="Imagens/criatividade.webp" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <h2 class="fw-normal">Criatividade</h2>
+          <p>Gosto de criar soluções únicas e trazer identidade aos meus projetos.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="Imagens/foco.webp" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <h2 class="fw-normal">Foco</h2>
+          <p>Persistente, organizado e sempre em busca de resultados.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <section id="identificacao" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Identificação</h2>
+          <p class="lead">Meu nome é Josué tenho 24 anos e estou iniciando minha carreira na área de T.I,
+          mesmo não tendo muita experiência é uma área que tenho grande interesse
+          em me especializar pois sou aficcionado em Tecnologia e inovações.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Imagens/josue.jpeg" class="width="350 height="350">
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+
+      <section id="formacao" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Formação Acadêmica</h2>
+          <p class="lead">Ensino Superior em Análise e desenvolvimento de sistemas</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="Imagens/livros.png" class="img-fluid mx-auto">
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+
+      <section id="atuacao" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Atuação Profissional</h2>
+          <p class="lead">Quero me especializar na área de desenvolvimentode software, criando soluçoes inovadoras e eficientes que transformem a vida das pessoas</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Imagens/carreira.png" class="img-fluid mx-auto">
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+
+      <section id="hobbies" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Hobbies</h2>
+          <p class="lead">Nos meus momentos livres, gosto de Caminhar, Escrever, Desenhar, Pintar</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="Imagens/hobies.png" class="img-fluid mx-auto">
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+      
+       
+        <section class="row featurette secao-esquerda">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Tecnologia</h2>
+          <p class="lead">A tecnologia é a extensão da mente humana, moldando o presente com ideias do futuro.
+          Em um mundo em constante movimento, ela nos ensina que evoluir é também aprender a nos reconectar</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Imagens/tec.png" class="img-fluid mx-auto">
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+    </div>
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Voltar ao Inicio</a></p>
+      <p>&copy; 2025 Josué Azevedo Umbelino</p>
+      <section id="contato" class="container my-5">
+  <h2 class="mb-4">Entre em Contato</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nome" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensagem" class="form-label">Mensagem</label>
+      <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

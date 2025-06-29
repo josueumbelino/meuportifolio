@@ -1,0 +1,135 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb00)FF)FF;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.carousel-item { 
+  background-color: #c0c080;
+
+}
+.bd{
+  background-color: #7a7a40;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+h2 {
+  color: #efefe1
+}
+
+#contato {
+  background-color: #1F3B2D;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.navbar-brand:hover {
+  color: yellow;
+}
+
+footer {
+  font-style: italic;
+} 
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #f2f2f2; /* cinza claro */
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+#identificacao .col-md-7,
+#identificacao .col-md-5 {
+  padding-left: 50px; /* aumenta conforme necessário */
+}
+.featurette .col-md-7,
+.featurette .col-md-5 {
+  padding-left: 75px; /* ou 30px, 3rem, etc. */
+}
+
+.secao-esquerda .col-md-7,
+.secao-esquerda .col-md-5 {
+  padding-left: 1;
+  padding-right: 60px; /* empurra conteúdo para a esquerda */
+}
